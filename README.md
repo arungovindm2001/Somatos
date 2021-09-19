@@ -1,10 +1,10 @@
 # Somatos
-A smart AI based camera app that helps you to maintain your ergonomic posture during your work at desk
+A smart AI-based camera app that helps you to maintain your ergonomic posture during your work at a desk
 
 ## About
-Durnig this pandemic, due to the change in work, study style people are speding their most part of the day at desks and don't pay much attention to their body posture and suffer from back pain and other health effects.
+During this pandemic, due to the change in work, study style people are spending most part of the day at desks and don't pay much attention to their body posture, and suffer from back pain and other health effects.
 <br>
-Somatos helps people to remind them of their posture so that they are in an ergomic postrue with no strain. It uses state of art AI methods to detect their posture and rings an alarm if they are deviated from a good posture during their work/study.
+Somatos helps people to remind them of their posture so that they are in an ergonomic posture with no strain. It uses state of art AI methods to detect their posture and rings an alarm if they deviate from a good posture during their work/study.
 
 ## Built with
 <li>Node
