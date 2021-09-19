@@ -15,7 +15,7 @@ export const Footer = (): JSX.Element => {
     {
       label: "Github",
       icon: VscGithubInverted,
-      url: "https://github.com/arungovindm2001/posture-app",
+      url: "https://github.com/arungovindm2001/somatos",
     },
     
   ];
