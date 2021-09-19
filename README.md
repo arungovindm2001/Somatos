@@ -1,4 +1,6 @@
 # Somatos
+![image](https://user-images.githubusercontent.com/69108486/133930929-417115e1-6ffd-4dce-945e-6b5a0972876b.png)
+
 A smart AI-based camera app that helps you to maintain your ergonomic posture during your work at a desk
 
 ## About
