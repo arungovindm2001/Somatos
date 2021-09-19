@@ -22,9 +22,9 @@ export const InfoBox = (): JSX.Element => {
       w={responsiveWidth}
     >
       <Text opacity={0.8} fontSize={{ base: "lg", lg: "xl" }}>
-        <Text as="strong">Posture</Text>
+        <Text as="strong">SOMA</Text>
         <Text as="strong" color={useColorModeValue("purple.500", "purple.300")}>
-          AI
+          TOS
         </Text>{" "}
         analyzes your posture & notifies you in real-time!
       </Text>
@@ -37,12 +37,12 @@ export const InfoBox = (): JSX.Element => {
         Get into an ergonomic position, set your timer, click calibrate, and get
         cracking! You can minimize the browser and{" "}
         <span>
-          <Text as="strong">Posture</Text>
+          <Text as="strong">SOMA</Text>
           <Text
             as="strong"
             color={useColorModeValue("purple.500", "purple.300")}
           >
-            AI
+            TOS
           </Text>
         </span>{" "}
         will play an audio notification if we identify bad posture!

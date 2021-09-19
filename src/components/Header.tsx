@@ -10,13 +10,13 @@ export const Header = (): JSX.Element => {
         fontWeight="bold"
         lineHeight="1.2"
       >
-        Posture
+        SOMA
         <Box
           as="span"
           className="header"
           color={useColorModeValue("purple.500", "purple.300")}
         >
-          AI
+          TOS
         </Box>
       </chakra.h1>
       <Text opacity={0.5} fontSize={{ base: "sm", lg: "md" }}>

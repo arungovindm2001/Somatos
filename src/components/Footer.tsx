@@ -4,9 +4,10 @@ import {
   Link,
   Stack,
   Text,
+  Image,
+  Center,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { FaDev } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 
 export const Footer = (): JSX.Element => {
@@ -14,42 +15,55 @@ export const Footer = (): JSX.Element => {
     {
       label: "Github",
       icon: VscGithubInverted,
-      url: "https://github.com/jcserv/PostureAI/",
+      url: "https://github.com/arungovindm2001/posture-app",
     },
-    {
-      label: "Devpost",
-      icon: FaDev,
-      url: "https://devpost.com/software/placeholder-9gjdst",
-    },
+    
   ];
 
   const color = useColorModeValue("purple.500", "purple.300");
   return (
     <Box as="footer" mt={12} height="100%" textAlign="center" className="app">
       <Text fontSize="sm">
-        Made with{" "}
-        <span aria-label="heart" role="img">
-          &#128156;
-        </span>{" "}
-        by{" "}
-        <Link href="https://ca.linkedin.com/in/shahmeer-shahid" isExternal>
-          Shahmeer Shahid
-        </Link>
-        ,{" "}
-        <Link
-          href="https://www.linkedin.com/in/lazar-lolic-207779184/"
-          isExternal
-        >
-          Lazar Lolic
-        </Link>
-        ,{" "}
-        <Link href="https://www.github.com/imphungky/" isExternal>
-          Michael Phung
-        </Link>
-        , &{" "}
-        <Link href="https://www.linkedin.com/in/jarrod-servilla/" isExternal>
-          Jarrod Servilla
-        </Link>
+        Made by
+        <Center>
+        <Link href="https://github.com/kingjuno" isExternal>
+          <Image
+            src="https://avatars.githubusercontent.com/u/69108486?v=4"
+            borderRadius="full"
+            boxSize="150px"
+            objectFit="cover"
+            padding="10px"
+          ></Image>
+          </Link>
+          <Link href="https://github.com/arungovindm2001" isExternal>
+          <Image
+            src="https://avatars.githubusercontent.com/u/67337602?v=4"
+            borderRadius="full"
+            boxSize="150px"
+            objectFit="cover"
+            padding="10px"
+          ></Image>
+          </Link>
+          <Link href="https://github.com/gopik820" isExternal>
+          <Image
+            src="https://avatars.githubusercontent.com/u/73281663?v=4"
+            borderRadius="full"
+            boxSize="150px"
+            objectFit="cover"
+            padding="10px"
+          ></Image>
+          </Link>
+          <Link href="https://github.com/siddharthc30" isExternal>
+          <Image
+            src="https://avatars.githubusercontent.com/u/53928899?v=4"
+            borderRadius="full"
+            boxSize="150px"
+            objectFit="cover"
+            padding="10px"
+          ></Image>
+          </Link>
+        </Center>
+        
       </Text>
       <Stack mt={4} direction="row" spacing="12px" justify="center" mb={10}>
         {links.map((link, index) => {
