@@ -61,9 +61,10 @@ export const Form: React.FC<FormProps> = ({
       spacing={4}
       p={5}
       shadow="md"
-      borderWidth="1px"
+      borderRadius="md"
       m={4}
-      w={responsiveWidth}
+      w="1200px"
+
     >
       <FormControl id="selectdevice" w="100%">
         <FormLabel>Webcam</FormLabel>

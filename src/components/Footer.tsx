@@ -30,7 +30,7 @@ export const Footer = (): JSX.Element => {
           <Image
             src="https://avatars.githubusercontent.com/u/69108486?v=4"
             borderRadius="full"
-            boxSize="150px"
+            boxSize="200px"
             objectFit="cover"
             padding="10px"
           ></Image>
@@ -39,7 +39,7 @@ export const Footer = (): JSX.Element => {
           <Image
             src="https://avatars.githubusercontent.com/u/67337602?v=4"
             borderRadius="full"
-            boxSize="150px"
+            boxSize="200px"
             objectFit="cover"
             padding="10px"
           ></Image>
@@ -48,7 +48,7 @@ export const Footer = (): JSX.Element => {
           <Image
             src="https://avatars.githubusercontent.com/u/73281663?v=4"
             borderRadius="full"
-            boxSize="150px"
+            boxSize="200px"
             objectFit="cover"
             padding="10px"
           ></Image>
@@ -57,7 +57,7 @@ export const Footer = (): JSX.Element => {
           <Image
             src="https://avatars.githubusercontent.com/u/53928899?v=4"
             borderRadius="full"
-            boxSize="150px"
+            boxSize="200px"
             objectFit="cover"
             padding="10px"
           ></Image>

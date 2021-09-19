@@ -16,14 +16,14 @@ export const InfoBox = (): JSX.Element => {
     <VStack
       p={5}
       shadow="md"
-      borderWidth="1px"
+      borderRadius="md"
       m={4}
       textAlign="center"
-      w={responsiveWidth}
+      w="1500px"
     >
       <Text opacity={0.8} fontSize={{ base: "lg", lg: "xl" }}>
         <Text as="strong">SOMA</Text>
-        <Text as="strong" color={useColorModeValue("purple.500", "purple.300")}>
+        <Text as="strong" color={useColorModeValue("green.500", "green.300")}>
           TOS
         </Text>{" "}
         analyzes your posture & notifies you in real-time!
@@ -40,7 +40,7 @@ export const InfoBox = (): JSX.Element => {
           <Text as="strong">SOMA</Text>
           <Text
             as="strong"
-            color={useColorModeValue("purple.500", "purple.300")}
+            color={useColorModeValue("green.500", "green.300")}
           >
             TOS
           </Text>

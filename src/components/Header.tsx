@@ -14,7 +14,7 @@ export const Header = (): JSX.Element => {
         <Box
           as="span"
           className="header"
-          color={useColorModeValue("purple.500", "purple.300")}
+          color={useColorModeValue("green.500", "green.300")}
         >
           TOS
         </Box>
